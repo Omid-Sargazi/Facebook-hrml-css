@@ -462,7 +462,7 @@ nav {
   transition: max-height 0.3s;
 }
 .settings-menu-height {
-  max-height: 450px;
+  height: 450px;
 }
 .user-profile a {
   font-size: px;
@@ -499,4 +499,60 @@ nav {
   justify-content: space-between;
   text-decoration: none;
   color: #626262;
+}
+
+#dark-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  background: #ccc;
+  width: 45px;
+  border-radius: 15px;
+  padding: 2px 3px;
+  cursor: pointer;
+  display: flex;
+}
+#dark-btn span {
+  width: 18px;
+  height: 18px;
+  background: #ffff;
+  border-radius: 50%;
+  display: inline-block;
+}
+/* Profile Page */
+.profile-container {
+  padding: 20px 15%;
+  color: #626262;
+}
+.cover-img {
+  width: 100%;
+  border-radius: 6px;
+  margin-bottom: 14px;
+}
+
+.profile-details {
+  background: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.profile-details-row {
+  display: flex;
+  align-items: flex-start;
+}
+
+.pd-image {
+  width: 100px;
+  margin-right: 20px;
+  border-radius: 6px;
+}
+
+.profile-details-row h3 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.profile-details-row p {
+  font-size: 13px;
 }
