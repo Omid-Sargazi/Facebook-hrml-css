@@ -729,4 +729,29 @@ nav {
   .add-post-links {
     flex-wrap: wrap;
   }
+  .main-content {
+    flex-basis: 100%;
+  }
+  .story img {
+    width: 30px;
+    border-width: 3px;
+  }
+  .story p {
+    font-size: 10px;
+  }
+  .story.story1 img {
+    width: 25px;
+    bottom: 30px;
+  }
+  .add-post-links a {
+    margin-right: 12px;
+    font-size: 9px;
+  }
+  .add-post-links a img {
+    width: 16px;
+    margin-right: 5px;
+  }
+  .post-input-conatiner {
+    padding-left: 0;
+  }
 }
