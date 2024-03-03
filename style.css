@@ -755,3 +755,33 @@ nav {
     padding-left: 0;
   }
 }
+/* media query for profile page */
+
+@media (max-width: 900px) {
+  .profile-container {
+    padding: 20px 5%;
+  }
+  .profile-details {
+    flex-wrap: wrap;
+  }
+  .profile-detail-right {
+    text-align: left;
+    margin-top: 15px;
+  }
+  .profile-details button {
+    margin-left: 0;
+    margin-right: 10px;
+  }
+  .profile-details-row div h3 {
+    font-size: 16px;
+  }
+  .profile-info {
+    flex-wrap: wrap;
+  }
+  .info-col {
+    flex-basis: 100%;
+  }
+  .post-col {
+    flex-basis: 100%;
+  }
+}
